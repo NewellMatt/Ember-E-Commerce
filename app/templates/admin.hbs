@@ -1,1 +1,8 @@
 {{new-product product="product"}}
+
+
+<ul>
+  {{#each model as |product|}}
+     {{admin-product-list product=product}}
+  {{/each}}
+</ul>
