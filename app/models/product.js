@@ -4,4 +4,7 @@ export default DS.Model.extend({
     title: DS.attr(),
     description: DS.attr(),
     image: DS.attr(),
+    cost: DS.attr()
 });
+
+//now this is actually being used
