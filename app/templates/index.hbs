@@ -1,12 +1,7 @@
-<h1> Welcome to E-Commerce </h1>
+<h1> Welcome Page "index" </h1>
 
-We hope you find exactly what you're looking for.
 
-<ul>
-  {{#each model as |product|}}
-     <li> ${{product.cost}} {{product.title}} {{product.description}} <img src="{{product.image}}" alt="" /></li>
-  {{/each}}
-</ul>
 
 {{#link-to 'about'}}About{{/link-to}}
-{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
+{{#link-to 'contact'}}Contact{{/link-to}}
+{{#link-to 'store'}}Store{{/link-to}}

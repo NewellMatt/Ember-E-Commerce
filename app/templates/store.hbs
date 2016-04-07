@@ -1,0 +1,11 @@
+<h1>Welcome to the store</h1>
+
+<ul>
+  {{#each model as |product|}}
+     {{product-tile product=product}}
+  {{/each}}
+</ul>
+
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contact'}}Contact{{/link-to}}
+{{#link-to 'about'}}About{{/link-to}}
